@@ -2,7 +2,7 @@ from sys import argv
 import xml.etree.ElementTree as ET
 
 # Parse the XML file
-tree = ET.parse(argv[0])
+tree = ET.parse(argv[1])
 root = tree.getroot()
 
 # Define the namespace
